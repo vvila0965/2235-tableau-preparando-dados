@@ -1,0 +1,11 @@
+DX
+SPLIT([Diagnosis], " ", 1)
+
+Null Hunting
+INT(MID([DX],2,1))
+
+Exclude from ICQ Codes
+ISNULL([Null Hunting])
+
+Diagnosis Text
+REPLACE([Diagnosis], [DX] + " ", "")

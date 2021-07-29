@@ -1,0 +1,7 @@
+1 - Country
+2 - Region
+3 - Economy
+4 - Family
+5 - Freedom
+6 - Happiness Rank
+7 - Happiness Score
